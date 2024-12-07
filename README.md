@@ -1,5 +1,6 @@
 # Caesar-Cipher
 This code implements a Caesar cipher, a basic encryption technique that shifts letters in the alphabet by a fixed number of places (the "key"). 
+
 Key Components:
 Alphabet Shift Logic:
 
