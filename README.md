@@ -16,3 +16,25 @@ The str.maketrans method creates a mapping from the original alphabet to the shi
 Translation:
 
 The translate method replaces the characters in the input message based on the mapping.
+
+Key Features of the Improved Code:
+
+Handles Uppercase and Lowercase:
+
+Both uppercase and lowercase letters are shifted correctly using string.ascii_uppercase.
+
+Preserves Non-Alphabetic Characters:
+
+Non-alphabetic characters like spaces, punctuation, and numbers are left unchanged.
+
+Helper Function for Reusability:
+
+The shift_alphabet function reduces redundancy and makes the code more modular.
+
+Input Validation:
+
+Ensures that invalid input types are handled gracefully with a descriptive error.
+
+Improved Readability:
+
+The code is well-structured with clear logic, making it easier to understand and maintain.
